@@ -1,0 +1,24 @@
+C:\Users\Николай\AppData\Local\Temporary Projects\Generate\bin\Debug\Generate.exe
+C:\Users\Николай\AppData\Local\Temporary Projects\Generate\bin\Debug\Generate.pdb
+C:\Users\Николай\AppData\Local\Temporary Projects\Generate\obj\x86\Debug\Generate.Form1.resources
+C:\Users\Николай\AppData\Local\Temporary Projects\Generate\obj\x86\Debug\Generate.Properties.Resources.resources
+C:\Users\Николай\AppData\Local\Temporary Projects\Generate\obj\x86\Debug\Generate.csproj.GenerateResource.Cache
+C:\Users\Николай\AppData\Local\Temporary Projects\Generate\obj\x86\Debug\Generate.exe
+C:\Users\Николай\AppData\Local\Temporary Projects\Generate\obj\x86\Debug\Generate.pdb
+c:\users\николай\documents\visual studio 2010\Projects\Generate\Generate\obj\x86\Debug\Generate.exe
+c:\users\николай\documents\visual studio 2010\Projects\Generate\Generate\obj\x86\Debug\Generate.pdb
+c:\users\николай\documents\visual studio 2010\Projects\Generate\Generate\bin\Debug\Generate.exe
+c:\users\николай\documents\visual studio 2010\Projects\Generate\Generate\bin\Debug\Generate.pdb
+c:\users\николай\documents\visual studio 2010\Projects\Generate\Generate\obj\x86\Debug\Generate.Form1.resources
+c:\users\николай\documents\visual studio 2010\Projects\Generate\Generate\obj\x86\Debug\Generate.Properties.Resources.resources
+c:\users\николай\documents\visual studio 2010\Projects\Generate\Generate\obj\x86\Debug\Generate.csproj.GenerateResource.Cache
+C:\Users\Николай\documents\visual studio 2010\Projects\Generate\Generate\obj\x86\Debug\Generate.csprojResolveAssemblyReference.cache
+E:\Users\User\Downloads\Generate\Generate\bin\Debug\Generate.exe
+E:\Users\User\Downloads\Generate\Generate\bin\Debug\Generate.pdb
+E:\Users\User\Downloads\Generate\Generate\obj\x86\Debug\Generate.csprojAssemblyReference.cache
+E:\Users\User\Downloads\Generate\Generate\obj\x86\Debug\Generate.Form1.resources
+E:\Users\User\Downloads\Generate\Generate\obj\x86\Debug\Generate.Properties.Resources.resources
+E:\Users\User\Downloads\Generate\Generate\obj\x86\Debug\Generate.csproj.GenerateResource.cache
+E:\Users\User\Downloads\Generate\Generate\obj\x86\Debug\Generate.csproj.CoreCompileInputs.cache
+E:\Users\User\Downloads\Generate\Generate\obj\x86\Debug\Generate.exe
+E:\Users\User\Downloads\Generate\Generate\obj\x86\Debug\Generate.pdb

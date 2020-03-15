@@ -1,0 +1,7 @@
+C:\Users\Николай\documents\visual studio 2010\Projects\Generate\Generate\bin\Release\Generate.exe
+C:\Users\Николай\documents\visual studio 2010\Projects\Generate\Generate\bin\Release\Generate.pdb
+C:\Users\Николай\documents\visual studio 2010\Projects\Generate\Generate\obj\x86\Release\Generate.Form1.resources
+C:\Users\Николай\documents\visual studio 2010\Projects\Generate\Generate\obj\x86\Release\Generate.Properties.Resources.resources
+C:\Users\Николай\documents\visual studio 2010\Projects\Generate\Generate\obj\x86\Release\Generate.csproj.GenerateResource.Cache
+C:\Users\Николай\documents\visual studio 2010\Projects\Generate\Generate\obj\x86\Release\Generate.exe
+C:\Users\Николай\documents\visual studio 2010\Projects\Generate\Generate\obj\x86\Release\Generate.pdb
