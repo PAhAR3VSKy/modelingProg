@@ -22,3 +22,12 @@ E:\Users\User\Downloads\Generate\Generate\obj\x86\Debug\Generate.csproj.Generate
 E:\Users\User\Downloads\Generate\Generate\obj\x86\Debug\Generate.csproj.CoreCompileInputs.cache
 E:\Users\User\Downloads\Generate\Generate\obj\x86\Debug\Generate.exe
 E:\Users\User\Downloads\Generate\Generate\obj\x86\Debug\Generate.pdb
+E:\avt-813\modelingProg\modelingLab1\Generate\bin\Debug\Generate.exe
+E:\avt-813\modelingProg\modelingLab1\Generate\bin\Debug\Generate.pdb
+E:\avt-813\modelingProg\modelingLab1\Generate\obj\x86\Debug\Generate.csprojAssemblyReference.cache
+E:\avt-813\modelingProg\modelingLab1\Generate\obj\x86\Debug\Generate.Form1.resources
+E:\avt-813\modelingProg\modelingLab1\Generate\obj\x86\Debug\Generate.Properties.Resources.resources
+E:\avt-813\modelingProg\modelingLab1\Generate\obj\x86\Debug\Generate.csproj.GenerateResource.cache
+E:\avt-813\modelingProg\modelingLab1\Generate\obj\x86\Debug\Generate.csproj.CoreCompileInputs.cache
+E:\avt-813\modelingProg\modelingLab1\Generate\obj\x86\Debug\Generate.exe
+E:\avt-813\modelingProg\modelingLab1\Generate\obj\x86\Debug\Generate.pdb

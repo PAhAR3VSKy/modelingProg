@@ -75,10 +75,10 @@ namespace Generate
             {
                 x = a + dx*i;
                 func = ((1 / (sigma * Math.Sqrt(2 * Math.PI)))) * Math.Exp(-(Math.Pow(x - m, 2)) / (2 * Math.Pow(sigma, 2)));
-                res += func * dx;
+                res += func;
             }
 
-            return res;
+            return res * dx;
 
         }
 
@@ -104,7 +104,7 @@ namespace Generate
                 for (int i = 0; i < countValues; i++)
                 {
                     double value;
-                    if (radioButton1.Checked) value = gcpt(1, 2, 50);
+                    if (radioButton1.Checked)  value = gcpt(1, 2, 50);
                     else value = gbm(1, 2);
 
                     listBox1.Items.Add(value);
