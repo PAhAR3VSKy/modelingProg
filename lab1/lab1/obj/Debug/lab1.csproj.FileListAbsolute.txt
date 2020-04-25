@@ -1,0 +1,9 @@
+C:\Users\paharevsky\source\repos\lab1\lab1\bin\Debug\lab1.exe.config
+C:\Users\paharevsky\source\repos\lab1\lab1\bin\Debug\lab1.exe
+C:\Users\paharevsky\source\repos\lab1\lab1\bin\Debug\lab1.pdb
+C:\Users\paharevsky\source\repos\lab1\lab1\obj\Debug\lab1.csprojAssemblyReference.cache
+C:\Users\paharevsky\source\repos\lab1\lab1\obj\Debug\lab1.Form1.resources
+C:\Users\paharevsky\source\repos\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+C:\Users\paharevsky\source\repos\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
+C:\Users\paharevsky\source\repos\lab1\lab1\obj\Debug\lab1.exe
+C:\Users\paharevsky\source\repos\lab1\lab1\obj\Debug\lab1.pdb
