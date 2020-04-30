@@ -42,7 +42,7 @@ namespace lab1
             double V = 0;
             for(int i = 0; i < num; i++)
             {
-                double r = ((double)rand.Next(0, 10000) / 10000);
+                double r = rand.NextDouble();
                 V += r;
             }
             double x = (V - (double)num/2) / Math.Sqrt(num/12);
@@ -62,24 +62,29 @@ namespace lab1
             chart1.Series[0].Points.Clear();
             int sample = (int)numericUpDown1.Value, 
                 numberIntervals = (int)numericUpDown2.Value;
-            double leftLim = 0,
-                   rightLim = 4,
-                   dx = (rightLim - leftLim) / numberIntervals;
-            double[] integralValue = new double[numberIntervals];
+            double[] value = new double[sample];
+            int[] intervals = new int[numberIntervals];
+            if(radioButton1.Checked)
+            {
+                for (int i = 0; i < sample; i++)
+                    value[i] = generationCPT(1, 2, 12);
+            }
+            else
+            {
+                for (int i = 0; i < sample; i++)
+                    value[i] = generationBM(1, 2);
+            }
             for (int i = 0; i < sample; i++)
             {
-                double value;
-                if (radioButton1.Checked)
-                    value = generationCPT(1, 2, 50);
-                else
-                    value = generationBM(1, 2);
-
-                listBox1.Items.Add(value);
+                for (int j = 0; j < numberIntervals; j++)
+                {
+                    if ((int)value[i] == j)
+                        intervals[j]++;
+                }
             }
-
             for (int i = 0; i < numberIntervals; i++)
             {
-                integralValue[i] = integral(leftLim + dx * i, leftLim + dx * (i + 1));
+                chart1.Series[0].Points.AddXY(i, intervals[i]);
             }
         }
     }

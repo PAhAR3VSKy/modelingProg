@@ -7,3 +7,12 @@ C:\Users\paharevsky\source\repos\lab1\lab1\obj\Debug\lab1.Properties.Resources.r
 C:\Users\paharevsky\source\repos\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
 C:\Users\paharevsky\source\repos\lab1\lab1\obj\Debug\lab1.exe
 C:\Users\paharevsky\source\repos\lab1\lab1\obj\Debug\lab1.pdb
+C:\projectGit\modelingProg\lab1\lab1\bin\Debug\lab1.exe.config
+C:\projectGit\modelingProg\lab1\lab1\bin\Debug\lab1.exe
+C:\projectGit\modelingProg\lab1\lab1\bin\Debug\lab1.pdb
+C:\projectGit\modelingProg\lab1\lab1\obj\Debug\lab1.csprojAssemblyReference.cache
+C:\projectGit\modelingProg\lab1\lab1\obj\Debug\lab1.Form1.resources
+C:\projectGit\modelingProg\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+C:\projectGit\modelingProg\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
+C:\projectGit\modelingProg\lab1\lab1\obj\Debug\lab1.exe
+C:\projectGit\modelingProg\lab1\lab1\obj\Debug\lab1.pdb
