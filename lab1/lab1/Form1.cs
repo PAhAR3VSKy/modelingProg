@@ -39,7 +39,7 @@ namespace lab1
             return Z*sigma + mu;
         }
 
-        double CriterionPearson(double[] a, double[] b)
+        double CriterionPearson(int[] a, int[] b)
         {
             double xi = 0;
             for (int i = 0; i < a.Length; i++)
@@ -89,7 +89,7 @@ namespace lab1
                 listBox2.Items.Add(valueCPT[i]);
             }
 
-            textBox1.Text = CriterionPearson(valueBM, valueCPT).ToString();
+            textBox1.Text = CriterionPearson(intervalsBM, intervalsCPT).ToString();
         }
     }
 }
