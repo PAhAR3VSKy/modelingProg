@@ -18,24 +18,6 @@ namespace lab1
             InitializeComponent();
         }
 
-        double integral(double a, double b)
-        {
-            int sigma = 1,
-                mu = 2;
-            double func,
-                   intervals = 10000,
-                   dx = (b - a) / intervals,
-                   res = 0,
-                   x = a;
-            for (int i = 0; i < intervals; i++)         
-            {
-                x = a + dx * i;
-                func = ((1 / (sigma * Math.Sqrt(2 * Math.PI)))) * Math.Exp(-(Math.Pow(x - mu, 2)) / (2 * Math.Pow(sigma, 2)));
-                res += func;
-            }
-
-            return res * dx;
-        }
 
         double generationCPT(double sigma, double mu, int num)
         {
@@ -57,35 +39,57 @@ namespace lab1
             return Z*sigma + mu;
         }
 
+        double CriterionPearson(double[] a, double[] b)
+        {
+            double xi = 0;
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (b[i] != 0)
+                    xi += Math.Pow((a[i] - b[i]), 2) / b[i];
+            }
+            return xi;
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             chart1.Series[0].Points.Clear();
+            chart2.Series[0].Points.Clear();
             int sample = (int)numericUpDown1.Value, 
                 numberIntervals = (int)numericUpDown2.Value;
-            double[] value = new double[sample];
-            int[] intervals = new int[numberIntervals];
-            if(radioButton1.Checked)
+            double[] valueCPT = new double[sample];
+            double[] valueBM = new double[sample];
+            int[] intervalsCPT = new int[numberIntervals];
+            int[] intervalsBM = new int[numberIntervals];
+            
+            for (int i = 0; i < sample; i++)
             {
-                for (int i = 0; i < sample; i++)
-                    value[i] = generationCPT(1, 2, 12);
+                valueCPT[i] = generationCPT(1, 2, 12);
+                valueBM[i] = generationBM(1, 2);
             }
-            else
-            {
-                for (int i = 0; i < sample; i++)
-                    value[i] = generationBM(1, 2);
-            }
+
             for (int i = 0; i < sample; i++)
             {
                 for (int j = 0; j < numberIntervals; j++)
                 {
-                    if ((int)value[i] == j)
-                        intervals[j]++;
+                    if ((int)valueCPT[i] == j)
+                        intervalsCPT[j]++;
+                    if ((int)valueBM[i] == j)
+                        intervalsBM[j]++;
                 }
             }
+
             for (int i = 0; i < numberIntervals; i++)
             {
-                chart1.Series[0].Points.AddXY(i, intervals[i]);
+                chart1.Series[0].Points.AddXY(i, intervalsBM[i]);
+                chart2.Series[0].Points.AddXY(i, intervalsCPT[i]);
             }
+            for (int i = 0; i < sample; i++)
+            {
+                listBox1.Items.Add(valueBM[i]);
+                listBox2.Items.Add(valueCPT[i]);
+            }
+
+            textBox1.Text = CriterionPearson(valueBM, valueCPT).ToString();
         }
     }
 }
