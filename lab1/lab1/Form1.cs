@@ -54,6 +54,8 @@ namespace lab1
         {
             chart1.Series[0].Points.Clear();
             chart2.Series[0].Points.Clear();
+            listBox1.Items.Clear();
+            listBox2.Items.Clear();
             int sample = (int)numericUpDown1.Value, 
                 numberIntervals = (int)numericUpDown2.Value;
             double[] valueCPT = new double[sample];
@@ -90,6 +92,11 @@ namespace lab1
             }
 
             textBox1.Text = CriterionPearson(intervalsBM, intervalsCPT).ToString();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
