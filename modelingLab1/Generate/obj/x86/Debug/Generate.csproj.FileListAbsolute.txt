@@ -31,3 +31,11 @@ E:\avt-813\modelingProg\modelingLab1\Generate\obj\x86\Debug\Generate.csproj.Gene
 E:\avt-813\modelingProg\modelingLab1\Generate\obj\x86\Debug\Generate.csproj.CoreCompileInputs.cache
 E:\avt-813\modelingProg\modelingLab1\Generate\obj\x86\Debug\Generate.exe
 E:\avt-813\modelingProg\modelingLab1\Generate\obj\x86\Debug\Generate.pdb
+D:\ProjectGit\modelingProg\modelingLab1\Generate\bin\Debug\Generate.exe
+D:\ProjectGit\modelingProg\modelingLab1\Generate\bin\Debug\Generate.pdb
+D:\ProjectGit\modelingProg\modelingLab1\Generate\obj\x86\Debug\Generate.csprojAssemblyReference.cache
+D:\ProjectGit\modelingProg\modelingLab1\Generate\obj\x86\Debug\Generate.Form1.resources
+D:\ProjectGit\modelingProg\modelingLab1\Generate\obj\x86\Debug\Generate.Properties.Resources.resources
+D:\ProjectGit\modelingProg\modelingLab1\Generate\obj\x86\Debug\Generate.csproj.GenerateResource.cache
+D:\ProjectGit\modelingProg\modelingLab1\Generate\obj\x86\Debug\Generate.exe
+D:\ProjectGit\modelingProg\modelingLab1\Generate\obj\x86\Debug\Generate.pdb
