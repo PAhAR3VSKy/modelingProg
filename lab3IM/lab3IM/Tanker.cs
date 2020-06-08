@@ -10,26 +10,29 @@ namespace lab3IM
     {
         Random rand = new Random();
 
-        
+        public int Time { get; set; }
+
+        public int LoadTimeTanker { get; set; }
+
+        public int WaitTimeTanker { get; set; }
 
         public Tanker()
         {
-
+            Time = 0;
+            LoadTimeTanker = 0;
+            WaitTimeTanker = 0;
         }
 
-        public int SetSpecificTanker(int k)
+        virtual public void LoadingTimeTanker()
         {
-            switch(k)
-            {
-                case 1:
-                    return rand.Next(16, 20); 
-                case 2:
-                    return rand.Next(21, 27);
-                case 3:
-                    return rand.Next(31, 39);
-                default:
-                    return 0;
-            }
+            Time++;
         }
+
+        virtual public void WaitingTimeTanker()
+        {
+            WaitTimeTanker++;
+        }
+
+        virtual public int SetSpecificTanker() { return 0; }
     }
 }

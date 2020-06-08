@@ -35,18 +35,20 @@ namespace lab3IM
             int modelingTime = Convert.ToInt32(numericUpDown1);
             //Port<Tanker1> tanker1 = new Port<Tanker1>();
 
-            Port portA = new Port();
-            Tanker tankerTime = new Tanker();
+            Port<Tanker1> tanker1 = new Port<Tanker1>();
+            Port<Tanker2> tanker2 = new Port<Tanker2>();
+            Port<Tanker3> tanker3 = new Port<Tanker3>();
 
             for (int i = 0; i < modelingTime; i++)
             {
                 double chance = rand.Next(1, 11);
+
                 if (chance <= 2.5)
-                    portA.Service(1, 1, tankerTime.SetSpecificTanker(1));
+                    tanker1.Service(1);
                 else if (chance > 2.5 && chance <= 8)
-                    portA.Service(1, 2, tankerTime.SetSpecificTanker(2));
+                    tanker2.Service(1);
                 else
-                    portA.Service(1, 3, tankerTime.SetSpecificTanker(3));
+                    tanker3.Service(1);
             }
         }
     }
